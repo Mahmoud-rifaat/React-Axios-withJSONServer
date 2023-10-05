@@ -1,0 +1,59 @@
+/* Custom CSS styles */
+
+/* Header styles */
+.header {
+  background-color: #f8f9fa;
+  padding: 20px;
+}
+
+/* Hero section styles */
+.hero {
+  background-image: url("../../src/assets/images/hero-image.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(129, 137, 137);
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+/* Product section styles */
+.product-section {
+  padding: 50px;
+  background-color: #f8f9fa;
+}
+
+.product {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
